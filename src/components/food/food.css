@@ -1,0 +1,49 @@
+.recepie_incredient {
+  width: 150px;
+  height: 200px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  transition: 0.3s;
+}
+
+.recepie_incredient:hover {
+  width: 160px;
+  height: 210px;
+}
+.recepie_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.recepie_incredient > img {
+  height: 80px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.recepie_ingredients_steps {
+  overflow-y: scroll;
+  position: relative;
+  top: 30px;
+  visibility: hidden;
+  transition: 0.3;
+  opacity: 0;
+}
+
+.recepie_incredient:hover .recepie_ingredients_steps {
+  visibility: initial;
+  top: 0px;
+  opacity: 1;
+}
+
+.recepie_incredient > p {
+  margin: 0;
+  font-size: 12px;
+}

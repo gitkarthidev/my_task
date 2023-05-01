@@ -1,0 +1,33 @@
+.sidebarContainer {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar_left {
+  /* background-color: aqua; */
+  flex: 3;
+  border: 1px solid gray;
+  margin: 0 5px;
+  /* background-color: #eee; */
+}
+
+.sidebar_left_section:hover {
+  background-color: darksalmon;
+}
+
+.sidebar_center {
+  /* background-color: blueviolet; */
+  flex: 7;
+  margin-right: 10px;
+}
+
+.sidebar_right {
+  /* background-color: burlywood; */
+  flex: 2;
+}
+
+.sidebar_center_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
